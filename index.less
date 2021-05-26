@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+
+    .top {
+        width: 800px;
+        height: 350px;
+        margin: 0 auto;
+        background: url(./images/jmsj_hw150316g.jpg) no-repeat;
+        background-size: contain;
+    }
+}
+
+nav {
+    width: 100%;
+
+    .nav {
+        width: 800px;
+        height: 320px;
+        margin: 0 auto;
+        background-color: #011957;
+        ul{
+            margin-left: 10px;
+           
+           li{
+               float: left;
+               width: 180px;
+               height: 45px;
+               
+               text-indent: 3px;
+               border-radius: 5px;
+               background-color: #6745B5;
+               box-shadow: 0px 4px 10px yellow;
+               margin: 8px 5px;
+               position: relative;
+               a{
+                line-height: 45px;
+                color: white;
+               }
+               span{
+                position: absolute;
+                right: 5px;
+                width: 20px;
+                height: 20px;
+                top: 15px;
+                text-align: center;
+                border-radius: 7px;
+                background-color: #011957;
+                color: white;
+            }
+           } 
+        }
+    }
+}
+section{
+    width: 100%;
+    .main{
+        width: 800px;
+        margin: 0 auto;
+        background-color: #011957;
+        overflow: hidden;
+        
+        .main_1{
+            width: 360px;
+            // height: 660px;
+            background-color: white;
+            border-radius: 20px;
+            margin: 10px 20px;
+            position: relative;
+            float: left;
+            img{
+                width: 300px;
+                height: 300px;
+                text-align: center;
+                margin-left: 30px;
+            }
+            p{
+                text-align: center;
+                font-size: 22px;
+                font-weight: 500;
+            }
+            .black{
+                display: block;
+                margin-left: 60px;
+                text-decoration: line-through;
+                font-size: 24px;
+                color: #333;
+                font-weight: 700;
+            }
+            .red{
+                display: block;
+                margin-left: 60px;
+                font-size: 24px;
+                color: red;
+                font-weight: 700;
+            }
+            .buy{
+                position: absolute;
+                bottom: 10px;
+                right: 60px;
+                width: 50px;
+                height: 50px;
+                border-radius: 5px;
+                text-align: center;
+                background-color: red;
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+}
